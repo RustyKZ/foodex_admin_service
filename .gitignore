@@ -1,0 +1,4 @@
+venv/
+**/foodex_admin/__pycache__/
+**/main/__pycache__/
+**/*.pyc
