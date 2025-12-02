@@ -111,8 +111,7 @@ STATIC_URL = 'static/'
 # Default primary key field type
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-CSRF_TRUSTED_ORIGINS = [
-    "*",
+CSRF_TRUSTED_ORIGINS = [    
     "http://localhost:8000/",
     "https://localhost:8000/",
     "https://foodex-admin-dev.rustykz.top",
